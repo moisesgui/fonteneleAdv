@@ -1,0 +1,101 @@
+.img-adv{
+	width: 100%;
+	border-radius: 10px;
+}
+.img-adv:hover{
+	transform: scale(1);
+	transition: 0.4s;
+	-webkit-filter: brightness(0.80);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.24);
+	
+}
+.image-container{
+	overflow:hidden;
+}
+
+.image-container:hover  {
+	-webkit-transform:scale(1);
+	transform:scale(1);
+}
+
+
+.facilities{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.vision-content{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vision-1{
+	flex-basis: 31%;
+	background-color: #F8F8F8;
+	border-radius: 10px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	width: 70%;
+}
+.vision-item {
+    color: #3E3E3F;
+	margin-bottom: 16px;
+	text-align: left;
+	padding: 12px;
+}
+.vision-item h3{
+	font-family: 'Hind Vadodara';
+	font-size: 21px;
+	padding: 2px;
+}
+
+.vision-subtitle{
+	text-align: center;
+}
+
+.values-content{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.facilities h1{
+	font-size: 36px;
+	font-weight: 600;
+	padding: 10px;
+}
+
+
+.facilities p{
+	font-family: monospace;
+	color: #3E3E3F;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: left;
+	padding: 26px;
+}
+.facilities-col h3{
+	text-align: left;
+	font-weight: 400;
+}
+.facilities-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+@media (max-width: 700px) {
+	.vision-content {
+		margin-bottom: 30px;
+	}
+	.vision-1{
+		width: 100%;
+		margin: 25px 0px;
+	}
+	.facilities p {
+		padding: 26px;
+	}
+}
