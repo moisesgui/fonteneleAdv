@@ -7,48 +7,18 @@ const Facilities = () => {
   return (
     <section class="facilities">
       <h1>Quem somos</h1>
-      <span class="vision-subtitle">
-        Quem somos nós e qual nossa visão, missão e nossos valores.
-      </span>
+      <p class="vision-subtitle">
+      O Uchôa & Oliveira Advogados Associados surgiu em 2012, a partir da fusão de dois escritórios, tendo como principal meta aumentar a estrutura disponível aos seus clientes e proporcionar uma equipe especializada nos diversos ramos do direito.
 
-      <div class="row">
+      Nossa equipe possui mais de oito anos no mercado jurídico, contando, atualmente, com quatro sócios administradores, além de advogados colaboradores e estagiários, todos com vasta experiência na seara trabalhista, empresarial, cível, tributária e criminal.
 
-        <div class="vision-content">
-          
-          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div class="vision-item">
-              <h3>Visão</h3>
-            </div>
-            <p>
-            Prover soluções jurídicas com criatividade, segurança e ética como pilares de sustentação para transformação da sociedade por meio da realização dos sonhos e ideais de nossos clientes.
-            </p>
-          </div>
+      Buscamos proporcionar um atendimento personalizado e especializado, com foco em resultados e na satisfação do cliente, sempre pautados nos fundamentos da eficiência, honestidade, trabalho e excelência.
 
+      Nossos serviços focam na resolução de demandas e problemas jurídicos, mas também na prevenção, por meio de uma assessoria técnica constante que se diferencia pela qualidade, disponibilidade e total transparência.
 
-          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div class="vision-item">
-              <h3>Missão</h3> 
-            </div>
-              <p>
-              Ser referência em soluções jurídicas para o setor trabalhista, empresas e funcionários.
-              </p>
-          </div>
+      O escritório atualmente atende em todo o Brasil, possuindo sede na cidade de Fortaleza – Ceará, sempre buscando as melhores tecnologias, estratégias e atualizações em sua estrutura.
+      </p>
 
-          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div class="vision-item">
-              <h3>Valores</h3>
-            </div>
-              <p>• Valorização das pessoas;</p>
-              <p>• Ética e integridade;</p>
-              <p>• Qualidade, segurança e eficiência.</p>
-            </div>
-        </div>
-        
-        <div class="cont1" data-aos="fade-left">
-          <img class="img-adv" src={advogado} alt="advogado" />
-        </div>
-        
-      </div>
     </section>
   );
 };

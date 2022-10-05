@@ -2,13 +2,11 @@ import React, {useEffect} from "react";
 
 import Course from "../../Shared/Components/Course/Course";
 import Facilities from "../../Shared/Components/Facilities/Facilities";
-import Testimonials from "../../Shared/Components/Testimonials/Testimonials";
 import Footer from "../../Shared/Components/Footer/Footer";
 
 import "./Home.style.css";
-import logo from "../../assets/imgs/abelardocastelo-logo.png";
-import ctps from "../../assets/imgs/ctps-0.png";
-import { FaWhatsapp, FaInstagram, FaCheck } from 'react-icons/fa';
+import logo from "../../assets/imgs/logo.png";
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -20,7 +18,7 @@ const Home = () => {
       var header = document.getElementById("myHeader");
       var navLinks = document.getElementById("navbar");
 
-      if (window.pageYOffset > 550) {
+      if (window.pageYOffset > 300) {
         header.classList.add("sticky");
         navLinks.classList.add("nav-sticky");
       } else {
@@ -53,49 +51,39 @@ const Home = () => {
           </div>
         </nav>
         <div class="text-box">
-          <h1>ABELARDO CASTELO BRANCO</h1>
+          <h1>UCHOA & OLIVEIRA</h1>
           <div class="divide"></div>
           <p>
-            ADVOCACIA E CONSULTORIA JURÍDICA
+            ADVOGADOS ASSOCIADOS
           </p>
           <div class="btn-whats">
-            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank">
+            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785" target="_blank">
               <FaWhatsapp 
                 size="55px"
               />
               FALE AGORA PELO WHATSAPP
             </a>
           </div>
-          <div class="btn-insta">
-            <a class="btn-hero-2" href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" target="_blank">
-              <FaInstagram 
-                size="50px"
-              />
-              ACESSE O NOSSO INSTAGRAM
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="ctps-container" data-aos="fade-up">
-        <div>
-          <img class="ctps-image" src={ctps} alt="ctps" />
-        </div>
-        <div class="ctps-content">
-          <h4>Foi demitido sem os devidos direitos?</h4>
-          <span>Entre em contato com a gente agora mesmo e garanta seus direitos. A justiça socorre aqueles que vão em busca dos seus direitos.</span>
-            <a class="ctps-btn" href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank">
-              Click aqui e saiba mais
-            </a>
         </div>
       </div>
       <div class="course-content" data-aos="fade-up">
         <Course />
       </div>
+      <div class="ctps-container" data-aos="fade-up">
+        <div class="ctps-content">
+          <h4>Fale com um de nossos advogados</h4>
+          <div class="btn-whats">
+            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785" target="_blank">
+              <FaWhatsapp 
+                size="55px"
+              />
+              FALE AGORA PELO WHATSAPP
+            </a>
+          </div>
+        </div>
+      </div>
       <div id="aboutUs" data-aos="fade-up">
         <Facilities />
-      </div>
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-        <Testimonials />
       </div>
       <div data-aos="fade-up">
         <Footer />

@@ -7,25 +7,19 @@ const Footer = () => {
   return (
     <section>
       <div class="footer">
+        <div class='span-footer'>
+          <span>Nosso Endereço:</span>
+        </div>
         <p>
-          "Faz de mim um profissional justo e honesto no exercício da minha profissão. Que eu tenha ética e moral. Que eu seja competente sem ser arrogante e não me permita nunca aceitar causas injustas e nem superiores às que sou capaz de fazer. Que a minha luta seja sempre em favor da justiça."
+        Av. Tristão Gonçalves, nº 959, Sala 101,<br></br> Centro, Fortaleza/CE,<br></br> CEP 60.015-000
         </p>
         <div class="contact-medias">
-          <a href="https://www.facebook.com" target="_blank">
-            <FaFacebook
-            style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-          />
-          </a>
-
-          <a href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" target="_blank">
+          <span>
+            instagram
+          </span>
+          <a href="https://instagram.com/uchoaeoliveiraadv?igshid=YmMyMTA2M2Y=" target="_blank">
             <FaInstagram
-              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-            />
-          </a>
-
-          <a href="https://www.linkedin.com" target="_blank">
-            <FaLinkedin
-              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
+              style={{ color: "#fff", fontSize: "40px", padding: "8px" }}
             />
           </a>
         </div>

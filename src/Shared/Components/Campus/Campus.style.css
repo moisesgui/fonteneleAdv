@@ -1,8 +1,9 @@
 .campus{
 	width: 80%;
-	margin: auto;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 100px;
+	padding: 100px;
+	background-color: #2D2D2D;
 }
 .campus h1{
 	font-size: 36px;
