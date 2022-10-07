@@ -24,6 +24,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div class="copy">
+      <p>© Copyright Uchoa&Oliveira - Todos os direitos reservados</p>
+      </div>
     </section>
   );
 };

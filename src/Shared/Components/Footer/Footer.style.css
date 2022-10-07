@@ -68,6 +68,20 @@ svg:hover {
 	padding: 5px 0
 }
 
+.copy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	height: 30px;
+}
+.copy p {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #926a42;
+	font-size: 14px;
+	font-weight: 500;
+}
+
 @media(max-width: 700px){
 	.footer{
 		padding: 26px 0;
@@ -79,5 +93,8 @@ svg:hover {
 	.contact-medias a{
 		padding: 1px;
 		margin: 16px;
+	}
+	.copy p {
+		font-size: 10px;
 	}
 }
