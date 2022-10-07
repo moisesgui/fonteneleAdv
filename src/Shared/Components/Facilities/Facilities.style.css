@@ -79,14 +79,15 @@
 
 
 .facilities p{
-	font-family: monospace;
-	color: antiquewhite;
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 40px;
-	letter-spacing: 1px;
-	text-align: left;
-	padding: 100px;
+	max-width: 960px;
+    margin: 0 auto;
+    font-family: monospace;
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    padding: 60px 0 120px 0;
 }
 .facilities-col h3{
 	text-align: left;

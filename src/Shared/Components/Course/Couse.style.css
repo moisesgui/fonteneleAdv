@@ -7,7 +7,7 @@
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding: 60px;
+	padding: 80px;
 }
 .course span {
 	color: #fff;
@@ -37,10 +37,10 @@
 }
 .course-title{
 	color: #926a42;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
 	line-height: 22px;
-	padding: 10px 0 40px 0;
+	padding: 10px;
 }
 .course-item a {
 	display: flex;
@@ -100,7 +100,9 @@
 		font-size: 16px;
 	}
 	.course-item a {
-		font-size: 15px
+		font-size: 14px;
+    	letter-spacing: 0;
+    	line-height: 2;
 	}
 
 	.course h1 {

@@ -45,7 +45,7 @@ const Home = () => {
                 <a  onClick={() => goAboutUs()}>SOBRE NÓS</a>
               </li>
               <li>
-                <a href="index.html">CONTATO</a>
+                <a href="https://api.whatsapp.com/send?phone=5585999994785" target="_blank">CONTATO</a>
               </li>
             </ul>
           </div>
