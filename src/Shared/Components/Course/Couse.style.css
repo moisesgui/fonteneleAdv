@@ -93,8 +93,11 @@
 	.course {
 		padding: 60px 0;
 	}
+	.course-title  {
+		font-size: 18px;
+	}
 	.course-item {
-		padding: 16px;
+		padding: 0px;
     	letter-spacing: 1px;
 		line-height: 40px;
 		font-size: 16px;
@@ -102,7 +105,7 @@
 	.course-item a {
 		font-size: 14px;
     	letter-spacing: 0;
-    	line-height: 2;
+    	line-height: 3;
 	}
 
 	.course h1 {
@@ -111,7 +114,7 @@
 	}
 
 	.course span {
-		font-size: 17px;
+		display: none;
 	}
 	.course-container {
 		flex-direction: column;
