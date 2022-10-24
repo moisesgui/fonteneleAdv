@@ -57,7 +57,7 @@ const Home = () => {
             ADVOGADOS ASSOCIADOS
           </p>
           <div class="btn-whats">
-            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785" target="_blank">
+            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20um%20advogado%20Uchoa%20e%20Oliveira%20advogados%20associados%2C%20para%20tirar%20d%C3%BAvidas." target="_blank">
               <FaWhatsapp 
                 size="55px"
               />
@@ -73,7 +73,7 @@ const Home = () => {
         <div class="ctps-content">
           <h4>Fale com um de nossos advogados</h4>
           <div class="btn-whats">
-            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785" target="_blank">
+            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585999994785&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20com%20um%20advogado%20Uchoa%20e%20Oliveira%20advogados%20associados%2C%20para%20tirar%20d%C3%BAvidas." target="_blank">
               <FaWhatsapp 
                 size="55px"
               />

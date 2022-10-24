@@ -1,6 +1,5 @@
 import React from "react";
 
-import advogado from "../../../assets/imgs/foto-adv.jpg";
 import "./Facilities.style.css";
 
 const Facilities = () => {
