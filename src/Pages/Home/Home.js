@@ -65,7 +65,7 @@ const Home = () => {
             </a>
           </div>
             <span>(85)98855-1849</span> 
-            <span> / 98855-1849</span>
+            <span> / 99999-4785</span>
         </div>
       </div>
       <div class="course-content" data-aos="fade-up">
