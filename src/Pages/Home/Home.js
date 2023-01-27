@@ -64,7 +64,8 @@ const Home = () => {
               FALE AGORA PELO WHATSAPP
             </a>
           </div>
-            <span>(85)98855-1849</span>
+            <span>(85)98855-1849</span> 
+            <span> / 98855-1849</span>
         </div>
       </div>
       <div class="course-content" data-aos="fade-up">
