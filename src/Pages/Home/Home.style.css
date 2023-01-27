@@ -97,6 +97,14 @@ nav img{
 	font-weight: 500;
 	color: #89592F;
 }
+.text-box span {
+	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 18px;
+	letter-spacing: 7px;
+	font-weight: bold;
+	color: #89592F;
+	text-decoration: overline;
+}
 
 .btn-whats {
 	display: flex;
@@ -118,7 +126,7 @@ nav img{
 	display: flex;
     justify-content: flex-end;
     align-items: center;
-	margin: 40px 0;
+	margin: 40px 0 16px 0;
 	color: #fff;
 	text-decoration: none;
 	font-size: 15px;
